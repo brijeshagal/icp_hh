@@ -1,13 +1,6 @@
 {
   "canisters": {
-    "trial_backend": {
-      "main": "src/trial_backend/main.mo",
-      "type": "motoko"
-    },
     "trial_frontend": {
-      "dependencies": [
-        "trial_backend"
-      ],
       "source": [
         "src/trial_frontend/dist"
       ],
